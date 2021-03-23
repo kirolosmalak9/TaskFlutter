@@ -213,7 +213,10 @@ class Course {
       this.createdAt,
       this.updatedAt});
 	  
-  class Teacher {
+
+}
+
+class Teacher {
 	  int id;
 	  String username;
 	  String photo;
@@ -221,8 +224,4 @@ class Course {
 
 	  Teacher({this.id, this.username, this.photo, this.role});
 	  
-	}
 }
-
-
- 
